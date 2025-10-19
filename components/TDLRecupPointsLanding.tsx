@@ -4,13 +4,6 @@ import React, { useState } from "react";
 
 export default function TDLRecupPointsLanding() {
   const [selectedDate, setSelectedDate] = useState("");
-  // ... le reste inchangé
-}
-
-import React, { useState } from "react";
-
-export default function TDLRecupPointsLanding() {
-  const [selectedDate, setSelectedDate] = useState("");
 
   const dates = [
     "20/10/2025 au 21/10/2025",
@@ -21,6 +14,13 @@ export default function TDLRecupPointsLanding() {
     "05/11/2025 au 06/11/2025",
     "07/11/2025 au 08/11/2025",
   ];
+
+  return (
+    <main className="min-h-screen bg-white text-slate-900">
+      {/* ... le reste du code inchangé */}
+    </main>
+  );
+}
 
   return (
     <main className="min-h-screen bg-white text-slate-900">
