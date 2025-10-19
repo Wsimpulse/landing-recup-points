@@ -1,3 +1,12 @@
+"use client";
+
+import React, { useState } from "react";
+
+export default function TDLRecupPointsLanding() {
+  const [selectedDate, setSelectedDate] = useState("");
+  // ... le reste inchangé
+}
+
 import React, { useState } from "react";
 
 export default function TDLRecupPointsLanding() {
